@@ -27,14 +27,17 @@ body
 }
 .menu-bar
 {
-    background: rgb(12, 123, 12);
+    background: rgb(117, 127, 241);
     text-align: center;
+    margin-left: 13px;
+    padding: 0.7%;
+   
 }
 .menu-bar ul
 {
  display: inline-flex;
  list-style: none;
- color: #fff;   
+ color: rgb(234, 232, 232);  
 }
 .menu-bar li
 {
@@ -49,7 +52,7 @@ body
 }
 .active, .menu-bar ul li:hover
 {
-    background: #2bab0d;
+    background: #7a81e8;
     border-radius: 3px;
 }
 .menu-bar .fa
@@ -64,7 +67,7 @@ body
 {
     display: block;
     position: absolute;
-    background: rgb(green 100);
+    background: rgb(rgb(111, 137, 230) 100);
     margin-top: 15px;
     margin-left: 15px;
 }
@@ -79,8 +82,8 @@ body
     width: 130px;
     padding: 10px;
     border-bottom: 0px dotted #fff;
-    background: green;
-    border-radius: 0;
+    background: rgb(123, 146, 238);
+    border-radius: 5px;
     text-align: center;
     border-top: 0;
 }
@@ -88,9 +91,9 @@ body
 {
     border-bottom:none;
 }
-.menu-bar ul li:hover .sub-menu-1 ul li a: hover;
+.menu-bar ul li:hover .sub-menu-1 ul li a :hover;
 {
-    color:#b2ff00;
+    color : #b2ff00;
 }
 .fa angle-right
 {
@@ -107,4 +110,20 @@ body
     margin-top: -20px;
     margin-left: 120px;
     background: rgb(20, 105, 20);
+}
+
+.thumbnail
+{
+    padding-right: 3%;
+    margin-left: 58%;
+    margin-bottom: 500%;
+    margin-top: -18%;
+}
+.sectionsubtag
+{
+    margin-left: 3%;
+    color: rgb(24, 64, 64);
+}
+.sectiontag{
+    margin-left: 2%;
 }
